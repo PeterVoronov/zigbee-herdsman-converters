@@ -8,7 +8,7 @@ jobs:
   update_deps:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     - uses: actions/setup-node@v3
